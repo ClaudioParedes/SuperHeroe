@@ -1,0 +1,92 @@
+<!-- token 10159712496417628 -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Claudio Paredes Bustamante." />
+    <title>SuperHeroes</title>
+    <link rel="shortcut icon" type="image/ico" href="assets/img/favicon.ico" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marvel&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CDN BOOTSTRAP 461 -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script> -->
+  </head>
+
+  <body>
+    <!-- N A V B A R -->
+
+    <section>
+      <nav class="navbar navbar-light bg-dark">
+        <a class="navbar-brand" href="#">
+          <img
+            src="assets/img/favicon.ico"
+            width="30"
+            height="30"
+            class="d-inline-block align-top"
+            alt="Icono Super Heroe"
+          />
+          SUPERHEROE CHILE
+        </a>
+      </nav>
+    </section>
+
+    <section class="container my-2">
+      <img class="image-flex" src="assets/img/sh1.jpg" alt="Fondo SuperHeroe" />
+    </section>
+
+    <section class="container">
+      <div class="justify-content-center col-12">
+        <input id="heroId" type="text" value="1" />
+        <button id="search" class="btn btn-info">Buscar</button>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="card mb-3" style="max-width: 980px">
+        <div class="row">
+          <div class="col-xl-4 col-xs-12">
+            <img
+              id="imgHero"
+              class="img-fluid my-5 mx-2"
+              src="assets/img/sh2.jpg"
+              alt="Imagen de Heroe"
+            />
+          </div>
+          <div class="col-xl-4 col-xs-12">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <ul class="list-group list-group-flush">
+                <li class="uList1 list-group-item"><p>FULL NAME:</p></li>
+                <li class="uList2 list-group-item">PLACE OF BIRTH:</li>
+                <li class="uList3 list-group-item">FIRST APPEARANCE:</li>
+                <li class="uList4 list-group-item">GENDER:</li>
+                <li class="uList5 list-group-item">RACE:</li>
+                <li class="uList6 list-group-item">HEIGHT:</li>
+                <li class="uList7 list-group-item">WEIGHT:</li>
+                <li class="uList8 list-group-item">PUBLISHER:</li>
+              </ul>
+            </div>
+          </div>
+          <div id="grafico" class="img-fluid col-xl-4 col-xs-12"></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script
+      type="text/javascript"
+      src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"
+    ></script>
+  </body>
+</html>
